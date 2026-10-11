@@ -20,7 +20,11 @@
                         "items": [
                             "tetra:thermal_cell"
                         ],
-                        "durability": 128
+                        "predicates": {
+                            "minecraft:damage": {
+                                "durability": 128
+                            }
+                        }
                     }
                 ]
             }
